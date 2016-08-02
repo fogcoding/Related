@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Camera" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="应用图库" />
+        <item
+            android:id="@+id/nav_ImMenager"
+            android:icon="@drawable/ali01"
+            android:title="消息管理" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="应用设置" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="微博分享" />
+            <item
+                android:id="@+id/nav_Communicate"
+                android:icon="@drawable/ic_menu_send"
+                android:title="短信聊天" />
+            <item
+                android:id="@+id/nav_features"
+                android:icon="@drawable/ic_menu_send"
+                android:title="特色功能" />
+        </menu>
+    </item>
+</menu>
