@@ -61,11 +61,12 @@ MarkDown语法
 > # [Github](www.github.com)
 
 ####表格
-> *| Tables        | Are           | Cool  |
-> *| ------------- |:-------------:| -----:|
-> *| col 3 is      | right-aligned | $1600 |
-> *| col 2 is      | centered      |   $12 |
-> *| zebra stripes | are neat      |    $1 |
+> ###### 编码方式：
+> `| Tables        | Are           | Cool  |`
+> `| ------------- |:-------------:| -----:|`
+> `| col 3 is      | right-aligned | $1600 |`
+> `| col 2 is      | centered      |   $12 |`
+> `| zebra stripes | are neat      |    $1 |`
 > ###### 实际效果：
 > | Tables        | Are           | Cool  |
 > | ------------- |:-------------:| -----:|
@@ -77,9 +78,14 @@ MarkDown语法
 ####代码框
 > 使用、把代码框起来即可，tab还可以缩进
 > ######例如：
-> 、System.out.printlin("Hello world!")、
+> `System.out.printlin("Hello world!")`
 >
 
 ####分割线
 ***
 > 只要使用***即可出现分割线
+
+####下划线
+---
+> 只要使用---即可出现分割线
+
