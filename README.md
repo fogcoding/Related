@@ -62,11 +62,11 @@ MarkDown语法
 
 ####表格
 > ###### 编码方式：
-> `| Tables        | Are           | Cool  |`
-> `| ------------- |:-------------:| -----:|`
-> `| col 3 is      | right-aligned | $1600 |`
-> `| col 2 is      | centered      |   $12 |`
-> `| zebra stripes | are neat      |    $1 |`
+> *`| Tables        | Are           | Cool  |`
+> *`| ------------- |:-------------:| -----:|`
+> *`| col 3 is      | right-aligned | $1600 |`
+> *`| col 2 is      | centered      |   $12 |`
+> *`| zebra stripes | are neat      |    $1 |`
 > ###### 实际效果：
 > | Tables        | Are           | Cool  |
 > | ------------- |:-------------:| -----:|
@@ -86,6 +86,8 @@ MarkDown语法
 > 只要使用***即可出现分割线
 
 ####下划线
+
 ---
-> 只要使用---即可出现分割线
+
+> 只要使用---即可出现下划线
 
