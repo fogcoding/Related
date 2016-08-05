@@ -54,11 +54,11 @@ MarkDown语法
 ####图片和链接
 > 图片和链接插入规则很相似
 > 区别只在一个!
-> 图片格式：！[]()
-> 链接格式： []()
+> # 图片格式：！[]()
+> # 链接格式： []()
 > 示例： 
 > ![Android小图标](http://f.hiphotos.baidu.com/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=4fe590dbc895d143ce7bec711299e967/2934349b033b5bb5c4a85c2636d3d539b700bcee.jpg)
-> [Github](www.github.com)
+> # [Github](www.github.com)
 
 ####表格
 > | Tables        | Are           | Cool  |
@@ -72,8 +72,9 @@ MarkDown语法
 ####代码框
 > 使用、把代码框起来即可，tab还可以缩进
 > 例如：
-> 、System.out.printlin("Hello world!")、
+>  #####、System.out.printlin("Hello world!")、
 >
 
 ####分割线
+***
 > 只要使用***即可出现分割线
