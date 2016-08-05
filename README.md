@@ -54,7 +54,7 @@ MarkDown语法
 ####图片和链接
 > 图片和链接插入规则很相似
 > 区别只在一个!
-> # 图片格式：！ [ 图片名字 ] ( 图片URL )
+> # 图片格式：！ “[” 图片名字 “]” “(” 图片URL “)”
 > # 链接格式： [ 链接名称 ] ( 链接url )
 > ######示例： 
 > ![Android小图标](http://f.hiphotos.baidu.com/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=4fe590dbc895d143ce7bec711299e967/2934349b033b5bb5c4a85c2636d3d539b700bcee.jpg)
@@ -62,11 +62,11 @@ MarkDown语法
 
 ####表格
 > ###### 编码方式：
-> *`| Tables        | Are           | Cool  |`
-> *`| ------------- |:-------------:| -----:|`
-> *`| col 3 is      | right-aligned | $1600 |`
-> *`| col 2 is      | centered      |   $12 |`
-> *`| zebra stripes | are neat      |    $1 |`
+`| Tables        | Are           | Cool  |`
+`| ------------- |:-------------:| -----:|`
+`| col 3 is      | right-aligned | $1600 |`
+`| col 2 is      | centered      |   $12 |`
+`| zebra stripes | are neat      |    $1 |`
 > ###### 实际效果：
 > | Tables        | Are           | Cool  |
 > | ------------- |:-------------:| -----:|
@@ -83,11 +83,7 @@ MarkDown语法
 
 ####分割线
 ***
-> 只要使用***即可出现分割线
+> 只要使用*** 或 --- 或 ——————————都可出现分割线
 
-####下划线
 
----
-
-> 只要使用---即可出现下划线
 
