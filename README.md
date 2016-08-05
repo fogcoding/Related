@@ -62,11 +62,11 @@ MarkDown语法
 
 ####表格
 > ###### 编码方式：
-`| Tables        | Are           | Cool  |`
-`| ------------- |:-------------:| -----:|`
-`| col 3 is      | right-aligned | $1600 |`
-`| col 2 is      | centered      |   $12 |`
-`| zebra stripes | are neat      |    $1 |`
+`| Tables        | Are           | Cool  |`   
+`| ------------- |:-------------:| -----:|`   
+`| col 3 is      | right-aligned | $1600 |`   
+`| col 2 is      | centered      |   $12 |`   
+`| zebra stripes | are neat      |    $1 |`   
 > ###### 实际效果：
 > | Tables        | Are           | Cool  |
 > | ------------- |:-------------:| -----:|
@@ -77,7 +77,7 @@ MarkDown语法
 
 ####代码框
 > 使用、把代码框起来即可，tab还可以缩进
-> ######例如：
+> ######例如： 
 > `System.out.printlin("Hello world!")`
 >
 
