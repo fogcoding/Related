@@ -40,13 +40,13 @@ MarkDown语法
 #### 列表
 #####无序列表
 > 在文字的前方加上* 或 -就能变为无序列表
-> 示例：
+> ###### 示例：
 > * 这里是列表内容1
 > * 这里是列表内容2
 > * 这里是列表内容3
 #####有序列表
 > 在文字的前方加上1. , 2. 3. ···就能变为无序列表
-> 示例：
+> ######示例：
 > 1.这里是列表内容1
 > 2.这里是列表内容2
 > 3.这里是列表内容3
@@ -54,25 +54,30 @@ MarkDown语法
 ####图片和链接
 > 图片和链接插入规则很相似
 > 区别只在一个!
-> # 图片格式：！[]()
-> # 链接格式： []()
-> 示例： 
+> # 图片格式：！ [ 图片名字 ] ( 图片URL )
+> # 链接格式： [ 链接名称 ] ( 链接url )
+> ######示例： 
 > ![Android小图标](http://f.hiphotos.baidu.com/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=4fe590dbc895d143ce7bec711299e967/2934349b033b5bb5c4a85c2636d3d539b700bcee.jpg)
 > # [Github](www.github.com)
 
 ####表格
+> *| Tables        | Are           | Cool  |
+> *| ------------- |:-------------:| -----:|
+> *| col 3 is      | right-aligned | $1600 |
+> *| col 2 is      | centered      |   $12 |
+> *| zebra stripes | are neat      |    $1 |
+> ###### 实际效果：
 > | Tables        | Are           | Cool  |
 > | ------------- |:-------------:| -----:|
 > | col 3 is      | right-aligned | $1600 |
 > | col 2 is      | centered      |   $12 |
 > | zebra stripes | are neat      |    $1 |
->
 
 
 ####代码框
 > 使用、把代码框起来即可，tab还可以缩进
-> 例如：
->  #####、System.out.printlin("Hello world!")、
+> ######例如：
+> 、System.out.printlin("Hello world!")、
 >
 
 ####分割线
